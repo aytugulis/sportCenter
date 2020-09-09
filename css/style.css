@@ -28,7 +28,9 @@ p {
   background-image: url(../img/bg.jpg);
   background-attachment: fixed;
   background-size: cover;
-  height: 880px;
+  height: 35rem;
+  border-bottom-left-radius: 100px 30px;
+  border-bottom-right-radius: 100px 30px;
 }
 
 .heading-content {
