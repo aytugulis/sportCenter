@@ -1,0 +1,70 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, .head-1 {
+  font-family: 'Anton', sans-serif;
+}
+
+h5 {
+  color: black;
+}
+
+p {
+  color: gray;
+}
+
+/* NAVBAR */
+.navigation {
+  opacity: 0.9;
+}
+
+.none-outline:focus {
+  outline: none;
+}
+
+/* HEADING */
+.heading {
+  background-image: url(../img/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 880px;
+}
+
+.heading-content {
+  position: relative;
+  top: 30%;
+}
+
+/* SPORT */
+/* STAFF */
+.king:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f521";
+  color: #ffc107;
+  font-size: 2rem;
+}
+
+.out {
+  width: 90px;
+  height: 90px;
+  box-shadow: 1px 1px 6px 3px #cccccc;
+  opacity: 0.9;
+}
+
+.out:hover {
+  opacity: 1;
+  box-shadow: 1px 1px 6px 4px #bbbbbb;
+}
+
+/* #FOOTER */
+.footer a {
+  display: block;
+  padding: 3px 0;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  background-color: #ffc107;
+}
